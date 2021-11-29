@@ -262,7 +262,8 @@ public class FileSync {
 		}
 
 		if(f.isExercise()){
-			loadExercise(f, downloadAllowed, downloadMethod);
+			return;
+			//loadExercise(f, downloadAllowed, downloadMethod);
 		}
 	}
 
